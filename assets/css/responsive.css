@@ -1,0 +1,17 @@
+@media (min-width: 740px) {
+    .col-half{
+        width: 50%;
+    }
+}
+@media (max-width: 739px) {
+    .subnav {
+        display: none !important;
+    }
+    .about-img {
+        display: none !important;;
+    }
+    #menu {
+        flex-direction: column-reverse !important;
+    }
+
+}
